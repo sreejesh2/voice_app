@@ -20,5 +20,5 @@ from my_app.views import FeedBackView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('feedback/', FeedBackView.as_view(), name='feedback'),
+    path('feedbacks/',FeedBackView.as_view())
 ]
